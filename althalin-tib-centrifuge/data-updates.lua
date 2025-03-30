@@ -4,5 +4,5 @@ for _, c in next, centrifugeNames do
     local centrifuge = data.raw.item[c]
     
     centrifuge.icons = nil
-    centrifuge.icon = "__althalin-tib-centrifuge__/graphics/icons/" .. c .. ".png"
+    centrifuge.icon = "__althalin-tib-centrifuge-lily__/graphics/icons/" .. c .. ".png"
 end
