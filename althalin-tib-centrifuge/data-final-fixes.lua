@@ -222,7 +222,7 @@ for _, c in next, centrifugeNames do
   centrifuge.graphics_set = {
     animation = {
       layers = { {
-        filename = "__althalin-tib-centrifuge__/graphics/entity/tiberium-centrifuge-idle.png",
+        filename = "__althalin-tib-centrifuge-lily__/graphics/entity/tiberium-centrifuge-idle.png",
         priority = "high",
         width = 250,
         height = 250,
@@ -231,7 +231,7 @@ for _, c in next, centrifugeNames do
         shift = spriteShift
 
       }, {
-        filename = "__althalin-tib-centrifuge__/graphics/entity/" .. c .. "-base.png",
+        filename = "__althalin-tib-centrifuge-lily__/graphics/entity/" .. c .. "-base.png",
         priority = "high",
         width = 250,
         height = 250,
@@ -240,7 +240,7 @@ for _, c in next, centrifugeNames do
         shift = spriteShift
 
       }, {
-        filename = "__althalin-tib-centrifuge__/graphics/entity/tiberium-centrifuge-shadow.png",
+        filename = "__althalin-tib-centrifuge-lily__/graphics/entity/tiberium-centrifuge-shadow.png",
         priority = "high",
         width = 250,
         height = 250,
@@ -253,7 +253,7 @@ for _, c in next, centrifugeNames do
     working_visualisations = { {
       animation = {
         layers = { {
-          filename = "__althalin-tib-centrifuge__/graphics/entity/tiberium-centrifuge-anim.png",
+          filename = "__althalin-tib-centrifuge-lily__/graphics/entity/tiberium-centrifuge-anim.png",
           priority = "high",
           frame_count = 64,
           line_length = 8,
@@ -263,7 +263,7 @@ for _, c in next, centrifugeNames do
           shift = spriteShift,
           draw_as_glow = true
         }, {
-          filename = "__althalin-tib-centrifuge__/graphics/entity/tiberium-centrifuge-stack-lights.png",
+          filename = "__althalin-tib-centrifuge-lily__/graphics/entity/tiberium-centrifuge-stack-lights.png",
           priority = "high",
           frame_count = 64,
           line_length = 8,
@@ -273,7 +273,7 @@ for _, c in next, centrifugeNames do
           shift = spriteShift,
           draw_as_glow = true
         }, {
-          filename = "__althalin-tib-centrifuge__/graphics/entity/tiberium-centrifuge-fan.png",
+          filename = "__althalin-tib-centrifuge-lily__/graphics/entity/tiberium-centrifuge-fan.png",
           priority = "high",
           frame_count = 64,
           line_length = 8,
@@ -287,7 +287,7 @@ for _, c in next, centrifugeNames do
     }, {
       animation = {
         layers = { {
-          filename = "__althalin-tib-centrifuge__/graphics/entity/" .. c .. "-stack.png",
+          filename = "__althalin-tib-centrifuge-lily__/graphics/entity/" .. c .. "-stack.png",
           priority = "high",
           frame_count = 64,
           line_length = 8,
